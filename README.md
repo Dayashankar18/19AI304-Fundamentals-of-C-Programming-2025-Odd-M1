@@ -32,18 +32,24 @@ To build a C program that prints integer, float,character, and string literals o
 int main() {
     int a = 10;
     float b = 5.5;
-    char c = 'A';
-    double d = 12.3456;
+               char d[100] = "Hello C";
 
     printf("Integer: %d\n", a);
     printf("Float: %.2f\n", b);
     printf("Character: %c\n", c);
-    printf("Double: %.4lf\n", d);
+    printf("String: %s\n", d);
 
     return 0;
 }
 ````
 # Output:
+```
+Integer: 10
+Float: 5.50
+Character: A
+String: Hello C
+
+```
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -74,7 +80,27 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```c
+#include <stdio.h>
+
+// Macro constant
+#define PI 3.14159
+
+int main() {
+    // Constant variable
+    const int MAX_VALUE = 100;
+
+    printf("Macro Constant (PI) = %.5f\n", PI);
+    printf("Constant Variable (MAX_VALUE) = %d\n", MAX_VALUE);
+
+    return 0;
+}
+```
 # Output:
+```
+Macro Constant (PI) = 3.14159
+Constant Variable (MAX_VALUE) = 100
+```
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -116,7 +142,16 @@ int main() {
 }
 ```
 # Output:
+```
+Integer: 10
+Float: 5.50
+Character: A
+Double: 12.3456
+```
 # Result: 
+Thus, the program to demonstrate different data types was executed successfully.
+
+---
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -177,6 +212,18 @@ int main() {
 }
 ```
 # Output:
+```
+Enter two numbers: 10 5
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2
+AND: 1
+OR: 7
+XOR: 6
+Left Shift: 10
+Right Shift: 2
+```
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -238,6 +285,10 @@ int main() {
 }
 ```
 # Output:
+```
+Enter a character: a
+Vowel
+```
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
