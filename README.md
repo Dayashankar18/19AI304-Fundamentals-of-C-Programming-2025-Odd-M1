@@ -26,6 +26,22 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    float b = 5.5;
+    char c = 'A';
+    double d = 12.3456;
+
+    printf("Integer: %d\n", a);
+    printf("Float: %.2f\n", b);
+    printf("Character: %c\n", c);
+    printf("Double: %.4lf\n", d);
+
+    return 0;
+}
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -81,6 +97,22 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    float b = 5.5;
+    char c = 'A';
+    double d = 12.3456;
+
+    printf("Integer: %d\n", a);
+    printf("Float: %.2f\n", b);
+    printf("Character: %c\n", c);
+    printf("Double: %.4lf\n", d);
+
+    return 0;
+}
 # Output:
 # Result: 
 
@@ -120,6 +152,27 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Addition: %d\n", a + b);
+    printf("Subtraction: %d\n", a - b);
+    printf("Multiplication: %d\n", a * b);
+    printf("Division: %d\n", a / b);
+    printf("AND: %d\n", a & b);
+    printf("OR: %d\n", a | b);
+    printf("XOR: %d\n", a ^ b);
+    printf("Left Shift: %d\n", a << 1);
+    printf("Right Shift: %d\n", a >> 1);
+
+    return 0;
+}
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -165,6 +218,21 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```c
+#include <stdio.h>
+
+int main() {
+    char ch;
+
+    printf("Enter a character: ");
+    scanf(" %c", &ch);
+
+    (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+     ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') ?
+     printf("Vowel") : printf("Consonant");
+
+    return 0;
+}
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
