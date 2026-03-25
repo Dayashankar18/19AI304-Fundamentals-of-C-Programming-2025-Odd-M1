@@ -42,6 +42,7 @@ int main() {
 
     return 0;
 }
+````
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -113,6 +114,7 @@ int main() {
 
     return 0;
 }
+```
 # Output:
 # Result: 
 
@@ -173,6 +175,7 @@ int main() {
 
     return 0;
 }
+```
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -233,6 +236,7 @@ int main() {
 
     return 0;
 }
+```
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
